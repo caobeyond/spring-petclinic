@@ -12,10 +12,10 @@ variables:
   azureSubscription: 'gomtest-connection'
 
   # Web app name
-  webAppName: 'services'
+  webAppName: 'gomaterials-test'
 
   # Environment name
-  environmentName: 'services'
+  environmentName: 'gomaterials-test'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'

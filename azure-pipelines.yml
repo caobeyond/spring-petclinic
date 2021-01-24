@@ -4,18 +4,18 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- {{ branch }}
+- main
 
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '{{ azureRmConnection.Id }}'
+  azureSubscription: 'caobeyond'
 
   # Web app name
-  webAppName: '{{ webAppName }}'
+  webAppName: 'gomtest'
 
   # Environment name
-  environmentName: '{{ webAppName }}'
+  environmentName: 'gomtest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
